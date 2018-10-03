@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This was made my kevin phelan
+ * for networking
+ *
  */
 package tcp;
 
@@ -16,7 +16,7 @@ public class TCPClient {
     public static final int SERVER_PORT = 5432; // the server's well known port
     public static void main(String[] args) throws IOException {
         String hostName = "127.0.0.1";
-	// remote server's address info are specified in clientSocket
+	   // remote server's address info are specified in clientSocket
         Socket clientSocket = new Socket(hostName, SERVER_PORT);
         PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
         Scanner in = new Scanner(System.in);
