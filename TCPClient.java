@@ -26,6 +26,5 @@ public class TCPClient {
 	    // this is the main loop that sends the user input to the remote server
             out.println(userInput);
         }
-
     }
 }
